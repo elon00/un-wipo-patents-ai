@@ -1,0 +1,13 @@
+[package]
+name = "un_wipo_patents_ai"
+version = "0.1.0"
+edition = "2021"
+description = "WIPO PatentTrust AI: Patent Cooperation Treaty (PCT) Global Prior-Art Timestamping, Madrid Trademark Registry and IP Provenance"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
